@@ -1,321 +1,721 @@
-import React , {Component} from "react";
+import React, { Component } from "react";
 import "./landing.css";
-import "./js/script"
-
-
-
-
-
-
-
+import "./js/script";
 
 const Landing = () => {
-
-
   return (
     <div>
-<script src="./js/script.js"></script>
+       <section class="colored-section" id="title ">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-7">
+              <div class="home-left">
+                <p class="section-subtitle ">Welcome </p>
 
-      <section class="home" id="home">
-        <div class="row">
-          <div class="content">
-            <h3>Always feel special with us</h3>
-            <a href="#" class="btn">
-              buy now
-            </a>
+                <h1 class="main-heading">
+                  To Future Academy
+                  <span class="underline-img">
+                    Classes <img src="imagess/banner-line.png" alt="line" />
+                  </span>
+                </h1>
+
+                <p class="section-text">
+                  Future Academy is one of the most popular institute in kolkata
+                </p>
+
+                <div class="home-btn-group">
+                  <button class="btn btn-primary">
+                    <p class="btn-text text-white">Explore Classes</p>
+                    <span class="square"></span>
+                  </button>
+
+                  <button class="btn btn-secondary">
+                    <p class="btn-text text-white">Contact Now</p>
+                    <span class="square"></span>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-5">
+              <div class="home-right">
+                <div class="img-box">
+                  <img
+                    src="imagess/banner-img-bg.png"
+                    alt="colorful background shape"
+                    class="background-shape"
+                  />
+                  <img
+                    src="imagess/banner-img.png"
+                    alt="banner image"
+                    class="banner-img"
+                  />
+
+                  <img
+                    src="imagess/coment1.png"
+                    alt=""
+                    class="icon-1 smooth-zigzag-anim-1"
+                    width="250"
+                  />
+                  <img
+                    src="imagess/coment2.png"
+                    alt=""
+                    class="icon-2 smooth-zigzag-anim-2"
+                    width="240"
+                  />
+                  <img
+                    src="imagess/coment3.png"
+                    alt=""
+                    class="icon-3 smooth-zigzag-anim-3"
+                    width="195"
+                  />
+                  <img
+                    src="imagess/banner-aliment-icon-4.png"
+                    alt=""
+                    class="icon-4 drop-anim"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="wrapper">
+          <ol>
+            <li>Eat</li>
+            <li>Read</li>
+            <li>Explore</li>
+            <li>Sleep</li>
+            <li>Repeat</li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="category">
+        <p class="section-subtitle">Course Category</p>
+
+        <h2 class="section-title">Explore Our Classes</h2>
+
+        <ul class="course-item-group">
+          <li class="course-category-item">
+            <div class="wrapper">
+              <img
+                src="imagess/course-category-icon-1.png"
+                alt="category icon"
+                class="category-icon default"
+              />
+
+              <img
+                src="imagess/course-category-icon-1-w.png"
+                alt="category icon white"
+                class="category-icon hover"
+              />
+            </div>
+
+            <div class="course-category-content">
+              <h3 class="category-title">
+                <a href="#">IIT-JEE</a>
+              </h3>
+
+              <p class="category-subtitle">Practise is Everything</p>
+            </div>
+          </li>
+
+          <li class="course-category-item">
+            <div class="wrapper">
+              <img
+                src="imagess/course-category-icon-2.png"
+                alt="category icon"
+                class="category-icon default"
+              />
+
+              <img
+                src="imagess/course-category-icon-2-w.png"
+                alt="category icon white"
+                class="category-icon hover"
+              />
+            </div>
+
+            <div class="course-category-content">
+              <h3 class="category-title">
+                <a href="#">WB-JEE</a>
+              </h3>
+
+              <p class="category-subtitle">Improve your Skills</p>
+            </div>
+          </li>
+
+          <li class="course-category-item">
+            <div class="wrapper">
+              <img
+                src="imagess/course-category-icon-3.png"
+                alt="category icon"
+                class="category-icon default"
+              />
+
+              <img
+                src="imagess/course-category-icon-3-w.png"
+                alt="category icon white"
+                class="category-icon hover"
+              />
+            </div>
+
+            <div class="course-category-content">
+              <h3 class="category-title">
+                <a href="#">NEET</a>
+              </h3>
+
+              <p class="category-subtitle">Fun & Challenging</p>
+            </div>
+          </li>
+
+          <li class="course-category-item">
+            <div class="wrapper">
+              <img
+                src="imagess/course-category-icon-4.png"
+                alt="category icon"
+                class="category-icon default"
+              />
+
+              <img
+                src="imagess/course-category-icon-4-w.png"
+                alt="category icon white"
+                class="category-icon hover"
+              />
+            </div>
+
+            <div class="course-category-content">
+              <h3 class="category-title">
+                <a href="#">KVPY</a>
+              </h3>
+
+              <p class="category-subtitle">New Skills, New You</p>
+            </div>
+          </li>
+
+          <li class="course-category-item">
+            <div class="wrapper">
+              <img
+                src="imagess/course-category-icon-5.png"
+                alt="category icon"
+                class="category-icon default"
+              />
+
+              <img
+                src="imagess/course-category-icon-5-w.png"
+                alt="category icon white"
+                class="category-icon hover"
+              />
+            </div>
+
+            <div class="course-category-content">
+              <h3 class="category-title">
+                <a href="#">ISI</a>
+              </h3>
+
+              <p class="category-subtitle">Improve your Knowledge</p>
+            </div>
+          </li>
+
+          <li class="course-category-item">
+            <div class="wrapper">
+              <img
+                src="imagess/course-category-icon-6.png"
+                alt="category icon"
+                class="category-icon default"
+              />
+
+              <img
+                src="imagess/course-category-icon-6-w.png"
+                alt="category icon white"
+                class="category-icon hover"
+              />
+            </div>
+
+            <div class="course-category-content">
+              <h3 class="category-title">
+                <a href="#">Class VII - XII</a>
+              </h3>
+
+              <p class="category-subtitle">B.A/B.Com/B.Sc.</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="about" id="about">
+        <div class="about-left">
+          <div class="img-box">
+            <img
+              src="imagess/about-img-bg.png"
+              alt="about bg"
+              class="about-bg"
+            />
+
+            <img
+              src="imagess/about-img.png"
+              alt="about person"
+              class="about-img"
+            />
+
+            <img
+              src="imagess/banner-aliment-icon-1.png"
+              alt=""
+              class="icon-1 smooth-zigzag-anim-1"
+              width="250"
+            />
+            <img
+              src="imagess/banner-aliment-icon-3.png"
+              alt=""
+              class="icon-2 smooth-zigzag-anim-3"
+              width="195"
+            />
+          </div>
+        </div>
+
+        <div class="about-right">
+          <p class="section-subtitle">About Us</p>
+
+          <h2 class="section-title">We Have Best Instructors</h2>
+
+          <p class="section-text">
+            Future Academy is one of the most popular institute in kolkata.The
+            teachers of Future Academy are very supportive.
+            <br />
+            Anyone could easily ask any doubt without hesitation. The
+            environment is homely. We wil provide mock test programme timely and
+            after the examination we also provide doubt clearing classes by
+            which students can understand their mistakes.
+          </p>
+
+          <ul class="about-ul">
+            <li>
+              <ion-icon name="checkmark-circle"></ion-icon>
+              <p>Weekly Test Facilities</p>
+            </li>
+
+            <li>
+              <ion-icon name="checkmark-circle"></ion-icon>
+              <p>Monthly Test Facilities</p>
+            </li>
+
+            <li>
+              <ion-icon name="checkmark-circle"></ion-icon>
+              <p>Mock Test Facilities</p>
+            </li>
+          </ul>
+
+          <button class="btn btn-primary">
+            <p class="btn-text">Know more</p>
+            <span class="square"></span>
+          </button>
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="features-left">
+          <p class="section-subtitle">Core Features</p>
+
+          <h2 class="section-title">See What Our Mission Are</h2>
+
+          <ul>
+            <li class="features-item">
+              <div class="item-icon-box blue">
+                <img src="imagess/feature-icon-1.png" alt="feature icon" />
+              </div>
+
+              <div class="wrapper">
+                <h3 class="item-title">Student Life</h3>
+
+                <p class="item-text">
+                  Nulla vestibulum pretium nibh at dignissim. Aliquam vehicula
+                  consectetur dignissim dictum.
+                </p>
+              </div>
+            </li>
+
+            <li class="features-item">
+              <div class="item-icon-box pink">
+                <img src="imagess/feature-icon-2.png" alt="feature icon" />
+              </div>
+
+              <div class="wrapper">
+                <h3 class="item-title">Best Classes</h3>
+
+                <p class="item-text">
+                  Nulla vestibulum pretium nibh at dignissim. Aliquam vehicula
+                  consectetur dignissim dictum.
+                </p>
+              </div>
+            </li>
+
+            <li class="features-item">
+              <div class="item-icon-box purple">
+                <img src="imagess/feature-icon-3.png" alt="feature icon" />
+              </div>
+
+              <div class="wrapper">
+                <h3 class="item-title">24x7 Program</h3>
+
+                <p class="item-text">
+                  Nulla vestibulum pretium nibh at dignissim. Aliquam vehicula
+                  consectetur dignissim dictum.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="features-right">
+          <img src="imagess/group photo.jpg" alt="core features image" />
+        </div>
+      </section>
+
+      <section class="instructor">
+        <p class="section-subtitle">Best Coach</p>
+
+        <h2 class="section-title">Our Expert Instructor</h2>
+
+        <div class="instructor-grid">
+          <div class="instructor-card">
+            <div class="instructor-img-box">
+              <img
+                src="imagess/instructor-1.jpg"
+                alt="instructor louis sullivan"
+              />
+
+              <div class="social-link">
+                <a href="#" class="facebook">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+
+                <a href="#" class="instagram">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+
+                <a href="#" class="twitter">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </div>
+            </div>
+
+            <h4 class="instructor-name">Louis Sullivan</h4>
+
+            <p class="instructor-title">Instructor</p>
           </div>
 
-          <div class="image">
-            <img src="image/home-img-2.png" class="main-home-image" alt="image" />
+          <div class="instructor-card">
+            <div class="instructor-img-box">
+              <img
+                src="imagess/instructor-2.jpg"
+                alt="instructor camden david"
+              />
+
+              <div class="social-link">
+                <a href="#" class="facebook">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+
+                <a href="#" class="instagram">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+
+                <a href="#" class="twitter">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </div>
+            </div>
+
+            <h4 class="instructor-name">Camden David</h4>
+
+            <p class="instructor-title">Instructor</p>
+          </div>
+
+          <div class="instructor-card">
+            <div class="instructor-img-box">
+              <img src="imagess/instructor-3.jpg" alt="instructor fiona dean" />
+
+              <div class="social-link">
+                <a href="#" class="facebook">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+
+                <a href="#" class="instagram">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+
+                <a href="#" class="twitter">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </div>
+            </div>
+
+            <h4 class="instructor-name">Fiona Dean</h4>
+
+            <p class="instructor-title">Instructor</p>
+          </div>
+
+          <div class="instructor-card">
+            <div class="instructor-img-box">
+              <img
+                src="imagess/instructor-4.jpg"
+                alt="instructor cherish sosa"
+              />
+
+              <div class="social-link">
+                <a href="#" class="facebook">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+
+                <a href="#" class="instagram">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+
+                <a href="#" class="twitter">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </div>
+            </div>
+
+            <h4 class="instructor-name">Cherish Sosa</h4>
+
+            <p class="instructor-title">Instructor</p>
           </div>
         </div>
+      </section>
 
-        <div class="image-slider">
-          <img src="image/home-img-2.png" alt="" />
-          <img src="image/home-img-3.png" alt="" />
-          <img src="image/pasta.png" alt="" />
+      <section class="testimonials">
+        <div class="testimonials-left">
+          <p class="section-subtitle">Testimonial</p>
+
+          <h2 class="section-title">What Our Student Says About Us</h2>
+
+          <p class="section-text">
+            I would highly recommend all the students who are preparing for
+            their upcoming board exams or any kind of joint entrance exam should
+            definitely attend the classes and mock tests from the prestigious
+            institute FUTURE ACADEMY.
+          </p>
         </div>
-        </section>
 
+        <div class="testimonials-right">
+          <div class="testimonials-card">
+            <img src="imagess/quote.png" alt="quote icon" class="quote-img" />
 
+            <p class="testimonials-text">
+              I am Sampurna Paul . I had studied during my 10th and 12th grade
+              and got 80% in my Higher Secondary Examination 2022 from Bidya
+              Bharati Girls High School , New Alipore Kolkata and finally
+              pursuing Bachelor Of Computer Application (BCA) from Techno Main
+              Salt Lake . I am thankful to all my teachers who guided and
+              supported me in this wonderful journey.
+            </p>
 
+            <div class="testimonials-client">
+              <div class="client-img-box">
+                <img src="imagess/client.jpg" alt="client christine rose" />
+              </div>
 
-        <section class="about" id="about">
+              <div class="client-detail">
+                <h4 class="client-name">Sampurna Paul</h4>
 
-<h1 class="heading"> about us <span>why choose us</span> </h1>    
-
-<div class="row">
-
-    <div class="image">
-        <img src="image/about-img.png" alt=""/>
-    </div>
-
-    <div class="content">
-        <h3 class="title">what's make our cafe special!</h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse et commodi, ad, doloremque obcaecati maxime quam minima dolore mollitia saepe quos, debitis incidunt. Itaque possimus adipisci ipsam harum at autem.</p>
-        <a href="#" class="btn">read more</a>
-        <div class="icons-container">
-            <div class="icons">
-                <img src="image/about-icon-1.png" alt=""/>
-                <h3>quality food</h3>
+                <p class="client-title">Student</p>
+              </div>
             </div>
-            <div class="icons">
-                <img src="image/about-icon-2.png" alt=""/>
-                <h3>our branches</h3>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog" id="blog">
+        <p class="section-subtitle">Our Blog</p>
+
+        <h2 class="section-title">Latest Blogs</h2>
+
+        <div class="blog-grid">
+          <div class="blog-card">
+            <div class="blog-banner-box">
+              <img src="imagess/blog-1.jpg" alt="blog banner" />
             </div>
-            <div class="icons">
-                <img src="image/about-icon-3.png" alt=""/>
-                <h3>free delivery</h3>
-            </div>
-        </div>
-    </div>
 
-</div>
+            <div class="blog-content">
+              <h3 class="blog-title">
+                <a href="#">Proin feugiat tortor non neque eleifend.</a>
+              </h3>
 
-</section>
-
-
-
-
-
-
-
-
- <section class="menu" id="menu">
-
-<h1 class="heading"> our menu <span>Menu Categories</span> </h1>
-
-<div class="box-container">
-
-    <a href="#" class="box">
-        <img src="image/menu-1.png" alt=""/>
-        <div class="content">
-            <h3>our special Chai</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, id.</p>
-            <span>view more</span>
-        </div>
-    </a>
-
-    <a href="#" class="box">
-        <img src="image/menu-2.png" alt=""/>
-        <div class="content">
-            <h3>our special coffee</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, id.</p>
-            <span>view more</span>
-        </div>
-    </a>
-
-    <a href="#" class="box">
-        <img src="./image/pizza.png" alt=""/>
-        <div class="content">
-            <h3>our special pizza</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, id.</p>
-            <span>view more</span>
-        </div>
-    </a>
-
-    <a href="#" class="box">
-        <img src="./image/burger_122704.png" alt=""/>
-        <div class="content">
-            <h3>our special burgers</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, id.</p>
-            <span>view more</span>
-        </div>
-    </a>
-
-    <a href="#" class="box">
-        <img src="./image/sandwich.png" alt=""/>
-        <div class="content">
-            <h3>our special sandwich</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, id.</p>
-            <span>view more</span>
-        </div>
-    </a>
-
-    <a href="#" class="box">
-        <img src="./image/pasta.png" alt=""/>
-        <div class="content">
-            <h3>our special shake</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, id.</p>
-            <span>view more</span>
-        </div>
-    </a>
-
-</div>
-
-</section>
-
-
-
-
-
-<section class="review" id="review">
-
-    <h1 class="heading"> reviews <span>what people says</span> </h1>
-
-    <div class="swiper review-slider">
-
-        <div class="swiper-wrapper">
-
-            <div class="swiper-slide box">
-                <i class="fas fa-quote-left"></i>
-                <i class="fas fa-quote-right"></i>
-                <img src="image/pic-1.png" alt=""/>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
+              <div class="wrapper">
+                <div class="blog-publish-date">
+                  <img src="imagess/calendar.png" alt="calendar icon" />
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aliquid eveniet qui, similique aut sit.</p>
-                <h3>john deo</h3>
-                <span>satisfied client</span>
+
+                <div class="blog-comment">
+                  <img src="imagess/comment.png" alt="comment icon" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="blog-card">
+            <div class="blog-banner-box">
+              <img src="imagess/blog-2.jpg" alt="blog banner" />
             </div>
 
-            <div class="swiper-slide box">
-                <i class="fas fa-quote-left"></i>
-                <i class="fas fa-quote-right"></i>
-                <img src="image/pic-2.png" alt=""/>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
+            <div class="blog-content">
+              <h3 class="blog-title">
+                <a href="#">Proin feugiat tortor non neque eleifend.</a>
+              </h3>
+
+              <div class="wrapper">
+                <div class="blog-publish-date">
+                  <img src="imagess/calendar.png" alt="calendar icon" />
                 </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore aliquid eveniet qui, similique aut sit.</p>
-                <h3>john deo</h3>
-                <span>satisfied client</span>
+
+                <div class="blog-comment">
+                  <img src="imagess/comment.png" alt="comment icon" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="blog-card">
+            <div class="blog-banner-box">
+              <img src="imagess/blog-3.jpg" alt="blog banner" />
             </div>
 
-  
+            <div class="blog-content">
+              <h3 class="blog-title">
+                <a href="#">Proin feugiat tortor non neque eleifend.</a>
+              </h3>
 
-        </div>
-
-        <div class="swiper-pagination"></div>
-
-    </div>
-
-</section>
-
-
-
-<section id="testimonial">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-title">
-                        <h2>Client Review</h2>
-                    </div>
+              <div class="wrapper">
+                <div class="blog-publish-date">
+                  <img src="imagess/calendar.png" alt="calendar icon" />
                 </div>
-                <div class="col-12">
-                    <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
-             
-                        <ol class="carousel-indicators">
-                            <li data-target="#testimonialCarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#testimonialCarousel" data-slide-to="1"></li>
-                            <li data-target="#testimonialCarousel" data-slide-to="2"></li>
-                        </ol>
-                        <div class="carousel-inner" role="listbox">
-                
-                            <div class="carousel-item active">
-                                <div class="carousel-content">
-                                    <div class="client-img"><img src="image/pic-1.png" alt="Testimonial Slider"/></div>
-                                    <p><i>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</i></p>
-                                    <h3><span>-</span> Gourav Kumar <span>-</span></h3>
-                                </div>
-                            </div>
-                          
-                            <div class="carousel-item">
-                                <div class="carousel-content">
-                                    <div class="client-img">       <img src="image/pic-2.png" alt="Testimonial Slider"/></div>
-                                    <p><i>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. There are many variations of passages of Lorem Ipsum available. Lorem Ipsum is simply dummy text of the printing and typesetting industry</i></p>
-                                    <h3><span>-</span> Mukesh Kumar <span>-</span></h3>
-                                </div>
-                            </div>
-                    
-                            <div class="carousel-item">
-                                <div class="carousel-content">
-                                    <div class="client-img">       <img src="image/pic-3.png" alt="Testimonial Slider"/></div>
-                                    <p><i>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form. There are many variations of passages of Lorem Ipsum available. Lorem Ipsum is simply dummy text of the printing and typesetting industry</i></p>
-                                    <h3><span>-</span> Rajnish Kumar <span>-</span></h3>
-                                </div>
-                            </div>
 
-                            <div class="carousel-item">
-                                <div class="carousel-content">
-                                    <div class="client-img"><img src="image/pic-4.png" alt="Testimonial Slider"/></div>
-                                    <p><i>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form. There are many variations of passages of Lorem Ipsum available. Lorem Ipsum is simply dummy text of the printing and typesetting industry</i></p>
-                                    <h3><span>-</span> Rajnish Kumar <span>-</span></h3>
-                                </div>
-                            </div>
-                      
-                            <a class="carousel-control-prev text-white" href="#testimonialCarousel" role="button" data-slide="prev">
-                                <i class="fas fa-chevron-left"></i>
-                            </a>
-                            <a class="carousel-control-next text-white" href="#testimonialCarousel" role="button" data-slide="next">
-                                <i class="fas fa-chevron-right"></i>
-                            </a>
-                        </div>
-                    </div>
+                <div class="blog-comment">
+                  <img src="imagess/comment.png" alt="comment icon" />
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-    </section>
+      </section>
 
+      <section class="contact">
+        <div class="contact-card" id="contact">
+          <img
+            src="imagess/cta-bg-img.png"
+            alt="shape"
+            class="contact-card-bg"
+          />
 
+          <h2>Start Your Dream Journey With Us</h2>
 
-
-
-
-
-<section class="footer">
-
-    <div class="box-container">
-
-
-        <div class="box">
-            <h3>quick links</h3>
-            <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
-            <a href="#"> <i class="fas fa-arrow-right"></i> about </a>
-            <a href="#"> <i class="fas fa-arrow-right"></i> menu </a>
-            <a href="#"> <i class="fas fa-arrow-right"></i> blog </a>
+          <button class="btn btn-primary">
+            <p class="btn-text">Contact Us</p>
+            <span class="square"></span>
+          </button>
         </div>
+      </section>
 
-        <div class="box">
-            <h3>contact info</h3>
-            <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
-            <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
-            <a href="#"> <i class="fas fa-envelope"></i> wilmee@gmail.com </a>
-            <a href="#"> <i class="fas fa-envelope"></i> kolkata, india </a>
-        </div>
+      <footer>
+        <div class="footer-grid">
+          <div class="grid-item">
+            <div class="footer-logo">
+              <img
+                src="imagess/Future Academy footer.png"
+                alt="educator logo white"
+              />
+            </div>
 
-        <div class="box">
-            <h3>contact info</h3>
-            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
-            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
-            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
-            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
-            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+            <p class="footer-text">
+              Future Academy is one of the most popular institute in kolkata.The
+              teachers of Future Academy are very supportive. Every students
+              could easily ask any doubt without hesitation. The environment of
+              there is like a home for all.
+            </p>
+
+            <div class="social-link">
+              <a href="#">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+              <a href="#">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+              <a href="#">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+              <a href="#">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </div>
+          </div>
+
+          <ul class="grid-item">
+            <h4 class="item-heading">Our Link</h4>
+
+            <li class="list-item">
+              <a href="#home">Home</a>
+            </li>
+
+            <li class="list-item">
+              <a href="#about">About Us</a>
+            </li>
+
+            <li class="list-item">
+              <a href="#course">Courses</a>
+            </li>
+
+            <li class="list-item">
+              <a href="#blog">Blog</a>
+            </li>
+
+            <li class="list-item">
+              <a href="#contact">Contact Us</a>
+            </li>
+          </ul>
+
+          <ul class="grid-item">
+            <h4 class="item-heading">Other Link</h4>
+
+            <li class="list-item">
+              <a href="#">Instructor</a>
+            </li>
+
+            <li class="list-item">
+              <a href="#">FAQ</a>
+            </li>
+
+            <li class="list-item">
+              <a href="#">Event</a>
+            </li>
+
+            <li class="list-item">
+              <a href="#">Privacy Policy</a>
+            </li>
+
+            <li class="list-item">
+              <a href="#">Term & Condition</a>
+            </li>
+          </ul>
+
+          <div class="grid-item">
+            <h4 class="item-heading">Subscribe Now</h4>
+
+            <div class="wrapper">
+              <input type="text" name="subscribe" placeholder="Email Address" />
+
+              <button class="send-btn">
+                <ion-icon name="paper-plane"></ion-icon>
+              </button>
+            </div>
+          </div>
         </div>
+      </footer>
 
     </div>
-
-    <div class="credit"> creatd by <span>wilmee designer</span> | all rights reserved </div>
-
-</section>
-
-
-
-
-
-    </div>
-    
   );
 };
-
-
-
 
 export default Landing;
