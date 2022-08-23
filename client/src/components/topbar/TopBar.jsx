@@ -10,12 +10,13 @@ export default function Topbar() {
     }
 
   return (
+    <>
 <div class="nav">
   <input type="checkbox" id="nav-check" />
   <div class="nav-header">
-    <div class="nav-title" style={{ margin: 'auto', paddingLeft:'200px'}}>
-    <a href="/"><img src="/image/TEA LOGO FINAL.png" class="logo"/></a>
-    </div>
+  <div class="navbar-brand nav-title logo "  style={{ margin: 'auto', paddingLeft:'200px',background: 'white' }}>
+          <img src="imagess/future academy.png" alt="Educator Logo"/>
+        </div>
   </div>
   <div class="nav-btn">
     <label for="nav-check">
@@ -26,8 +27,8 @@ export default function Topbar() {
   </div>
 
   <div class="nav-links" style={{ margin: 'auto',paddingLeft:'200px' }}>
-    <a href="/home" target="_blank">HOME</a>
-    <a href="/menu" target="_blank">Menu</a>
+    <a href="/" target="_blank">HOME</a>
+    <a href="/menu" target="_blank">Feedack</a>
     {user &&<a href="/write" target="_blank">WRITE</a>}
     <a href="/Mailer" target="_blank">BOOKING</a>
     {user &&<a href="/" target="_blank" onClick={controllLogout}  >LOGOUT</a>}
@@ -43,6 +44,13 @@ export default function Topbar() {
   
   </div>
 </div>
+
+
+
+
+
+
+</>
   )
 }
 

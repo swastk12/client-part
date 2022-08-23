@@ -1,121 +1,136 @@
+#strict
+
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: 'segoe ui';
+  z-index: 1;
   
-  body {
-    margin: 0px;
-    font-family: 'segoe ui';
-    
-    
-  }
   
-  .logo{
-    color:white;
-    height: 60px;
-    font-size: 3rem;
-  }
-  .nav {
-    height: 95px;
-    width: 100%;
-    background-color: rgb(109, 62, 0);
-    position: relative;
-    z-index: 1;
-   
-  }
-  
-  .nav > .nav-header {
-    display: inline;
-  
-  }
-  
-  .nav > .nav-header > .nav-title {
-    display: inline-block;
-    font-size: 22px;
-    color: #fff;
-    padding: 10px 10px 10px 10px;
-  }
-  
+}
+
+.logo{
+  color:white;
+  height: 60px;
+  font-size: 3rem;
+
+}
+.nav {
+  align-items: center;
+  height: 95px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  z-index: 12;
+
+ 
+ 
+}
+
+.nav > .nav-header {
+  display: inline;
+
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color: rgb(10, 9, 9);
+  padding: 10px 10px 10px 10px;
+}
+
+.nav > .nav-btn {
+  display: none;
+ 
+}
+.nav-links{
+  float: right !important;
+}
+.nav > .nav-links {
+  display: inline;
+ 
+  font-size: 18px;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #000000;
+
+}
+
+.nav > .nav-links > a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav > #nav-check {
+  display: none;
+}
+
+@media (max-width:760px) {
   .nav > .nav-btn {
-    display: none;
-   
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding-left: 20px;
+    
+  
   }
-  .nav-links{
-    float: right !important;
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+    z-index: 1;
+  }
+  .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(190, 0, 0, 0.3);
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid rgb(8, 8, 8);
   }
   .nav > .nav-links {
-    display: inline;
-   
-    font-size: 18px;
-  }
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: rgb(112, 112, 112);
+    height: 80px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 80px;
+    text-align: center !important;
   
+  }
   .nav > .nav-links > a {
-    display: inline-block;
-    padding: 13px 10px 13px 10px;
-    text-decoration: none;
-    color: #efefef;
-  
+    display: block;
+    width: 100%;
   }
-  
-  .nav > .nav-links > a:hover {
-    background-color: rgba(0, 0, 0, 0.3);
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
   }
-  
-  .nav > #nav-check {
-    display: none;
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
   }
-  
-  @media (max-width:760px) {
-    .nav > .nav-btn {
-      display: inline-block;
-      position: absolute;
-      right: 0px;
-      top: 0px;
-    }
-    .nav > .nav-btn > label {
-      display: inline-block;
-      width: 50px;
-      height: 50px;
-      padding: 13px;
-    }
-    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
-      background-color: rgba(0, 0, 0, 0.3);
-    }
-    .nav > .nav-btn > label > span {
-      display: block;
-      width: 25px;
-      height: 10px;
-      border-top: 2px solid #eee;
-    }
-    .nav > .nav-links {
-      position: absolute;
-      display: block;
-      width: 100%;
-      background-color: #333;
-      height: 0px;
-      transition: all 0.3s ease-in;
-      overflow-y: hidden;
-      top: 50px;
-      left: 0px;
-    }
-    .nav > .nav-links > a {
-      display: block;
-      width: 100%;
-    }
-    .nav > #nav-check:not(:checked) ~ .nav-links {
-      height: 0px;
-    }
-    .nav > #nav-check:checked ~ .nav-links {
-      height: calc(100vh - 50px);
-      overflow-y: auto;
-    }
-   
-  }
+ 
+}
 
-  @media screen and (max-width: 650px  ) {
-   .logo{
-    
-padding-right: 4.5rem;
-font-size: 3rem;
+@media (min-width: 560px) {
+  
+.logo{
+  
 
-   }
-    }
+  
+
+}
+
+  }

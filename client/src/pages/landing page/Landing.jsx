@@ -7,7 +7,7 @@ const Landing = () => {
     <div>
        <section class="colored-section" id="title ">
         <div class="container-fluid">
-          <div class="row">
+          <div class="row hom">
             <div class="col-lg-7">
               <div class="home-left">
                 <p class="section-subtitle ">Welcome </p>
