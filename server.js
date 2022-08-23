@@ -13,7 +13,7 @@ dotenv.config();
 app.use(express.json());
 app.use("/images", express.static(path.join(__dirname, "/images")));
 
-const PORT = process.env.PORT || 2000;
+const PORT = process.env.PORT || 2500;
 
 
 mongoose.connect(process.env.MONGO_URL, {
@@ -52,5 +52,5 @@ app.get("*",(req,res)=> {
 
 
 app.listen( PORT, ()=>{
-console.log("backend connected servers")
+console.log("backend connected server")
 })
