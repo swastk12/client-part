@@ -52,5 +52,5 @@ app.get("*",(req,res)=> {
 
 
 app.listen( PORT, ()=>{
-console.log("backend connected server")
+console.log("backend connected servers")
 })
