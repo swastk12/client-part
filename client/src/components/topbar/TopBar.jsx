@@ -11,42 +11,30 @@ export default function Topbar() {
 
   return (
     <>
-<div class="nav">
-  <input type="checkbox" id="nav-check" />
-  <div class="nav-header">
-  <div class="navbar-brand nav-title logo "  style={{ margin: 'auto', paddingLeft:'200px',background: 'white' }}>
-          <img src="imagess/future academy.png" alt="Educator Logo"/>
+
+
+<div class="nav-wrapper">
+            <div class="logo-container">
+                <img class="logo" src="imagess/future academy.png" alt="Logo"/>
+            </div>
+            <nav>
+                <input class="hidden" type="checkbox" id="menuToggle"/>
+                <label class="menu-btn" for="menuToggle">
+                    <div class="menu"></div>
+                    <div class="menu"></div>
+                    <div class="menu"></div>
+                </label>
+                <div class="nav-container">
+                    <ul class="nav-tabs">
+                      
+                        <a href="/"><li class="nav-tab">HOME</li></a>
+                        <a href="/menu"><li class="nav-tab">Feedback</li></a>
+                        <a href="/about"><li class="nav-tab">About-us</li></a>
+                        <a href="/Mailer"><li class="nav-tab">Booking</li></a>
+                    </ul>
+                </div>
+            </nav>
         </div>
-  </div>
-  <div class="nav-btn">
-    <label for="nav-check">
-      <span></span>
-      <span></span>
-      <span></span>
-    </label>
-  </div>
-
-  <div class="nav-links" style={{ margin: 'auto',paddingLeft:'200px' }}>
-    <a href="/" target="_blank">HOME</a>
-    <a href="/menu" target="_blank">Feedack</a>
-    {user &&<a href="/write" target="_blank">WRITE</a>}
-    <a href="/Mailer" target="_blank">BOOKING</a>
-    {user &&<a href="/" target="_blank" onClick={controllLogout}  >LOGOUT</a>}
-    {user ? (
-    <a href="/setting" target="_blank">PROFILE</a>
-    ) : (
-    <>  
-    <a href="/about" target="_blank">ABOUT </a>
-  
-     </>
-    )}
-    
-  
-  </div>
-</div>
-
-
-
 
 
 
