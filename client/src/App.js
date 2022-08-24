@@ -5,6 +5,7 @@ import Write from "./pages/write/Write";
 import Mailer from "./pages/booking/Mailer";
 import Landing from "./pages/landing page/Landing";
 import Menu from "./pages/Menu page/Menu";
+import About from "./pages/feedback/About";
 
 
 
@@ -25,7 +26,8 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Landing />} />
         <Route exact path="/home" element={<Home />} />
-        <Route exact path="/menu" element={<Menu />} />
+        <Route exact path="/feedback" element={<About />} />
+        <Route exact path="/about" element={<Menu />} />
         <Route  path="/post/:postId" element={<Single />} />
         <Route path="/write"element={<Write />}/>
         <Route path="/Mailer"element={<Mailer />}/>

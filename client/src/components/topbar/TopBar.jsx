@@ -28,7 +28,7 @@ export default function Topbar() {
                     <ul class="nav-tabs">
                       
                         <a href="/"><li class="nav-tab">HOME</li></a>
-                        <a href="/menu"><li class="nav-tab">Feedback</li></a>
+                        <a href="/feedback"><li class="nav-tab">Feedback</li></a>
                         <a href="/about"><li class="nav-tab">About-us</li></a>
                         <a href="/Mailer"><li class="nav-tab">Booking</li></a>
                     </ul>

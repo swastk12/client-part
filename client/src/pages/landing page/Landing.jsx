@@ -435,7 +435,7 @@ const Landing = () => {
 
           <div class="instructor-card">
             <div class="instructor-img-box">
-              <img src="imagess/instructor-3.jpg" alt="instructor fiona dean" />
+              <img src="imagess/instructor-2.jpg" alt="instructor fiona dean" />
 
               <div class="social-link">
                 <a href="#" class="facebook">
