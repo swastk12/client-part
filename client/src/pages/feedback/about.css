@@ -393,7 +393,10 @@ h1.heading {
     grid-row-gap: 100px;
   }
 }
-
+.card-text{
+  color: #000;
+  font-weight: 500;
+}
 
 
 .lead{
