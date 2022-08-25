@@ -17,29 +17,35 @@ const Mailer = () =>{
       };
     
     return(
-        <section className='mail' style={{backgroundColor:"#FAFDD6", paddingTop:"15px" }}>
-        <div className="container border "
-        style={{
+        <>
 
-                width:'50%',
-                margin: 'auto',
-                marginTop:"60px",
-                backgroundImage:`url('https://images.unsplash.com/photo-1621293954908-907159247fc8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80')`,
-                backgroundPosition:"center",
-                backgroundSize:"cover"}}>
-            <h1  style={{ margin: 'auto', textAlign: "center" }}> Booking Form </h1>
-            <form className="row  forms"  style={{margin:"25px 85px 75px 100px"}} ref={form} onSubmit={sendEmail}>
-                <label style={{fontWeight:"600"}}>Name</label>
-                <input type='text' name='name' className="form-control controller"/>
-                <label style={{fontWeight:"600"}}>Email</label>
-                <input type='email' name='user_email' className="form-control"/>
-                <label style={{fontWeight:"800"}} >Message</label>
-                <textarea name='message' rows='4' className="form-control"/>
-                <input type='submit' value='Send' className="form-control btn btn-primary"
-                style={{marginTop:"30px" }} />
-            </form>
-        </div>
-        </section>
+
+<section>
+<div id="form-main">
+  <div id="form-div">
+    <form class="form" id="form1"  ref={form} onSubmit={sendEmail}>
+      
+      <p class="name">
+        <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+      </p>
+      
+ 
+      
+      <p class="text">
+        <textarea name="message" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
+      </p>
+      
+      
+      <div class="submit">
+        <input type="submit" value="SEND" id="button-blue"/>
+        <div class="ease"></div>
+      </div>
+    </form>
+  </div>
+  </div>
+</section>
+
+</>
     );
 }
 

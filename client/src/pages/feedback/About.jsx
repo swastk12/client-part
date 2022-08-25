@@ -17,8 +17,9 @@ function About() {
     </div>
     <div class="col-lg-6">
       <div class="p-5 mt-4">
-          <h1 class="display-5">OUR SUCCESSFULL STUDENTS </h1>
-          <p class="lead " style={{color:"black",  }}>Crow's nest schooner ho scallywag hail-shot gabion salmagundi. Doubloon careen code of conduct lugsail hulk ye long clothes. </p>
+          <h1 >Our Successful Students </h1>
+          <p class="lead " style={{color:"black",  }}>The function of education is to teach one to think intensively and to think critically. Intelligence plus character - that is the goal of true education.
+(Martin Luther King) </p>
 
         </div>
     </div>
@@ -36,109 +37,71 @@ function About() {
    
    </div>
    <div class="quote">
-     <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit."</p>
-     <p>Nam risus mauris, aliquet porta lacinia non, blandit pan in metus swee. Integer tristique, sem lisad finibus loc facilisis mollis.</p>
+     <p>"Our primary goal is to make sure the students succeed. A good teacher has a duty to show their students 
+      that they are capable of achievement both inside and outside of the classroom. Most teachers assist students 
+      in creating success-oriented methods."</p>
+     <p>"A teacher's top priority should be the success of their students. Success for some students may consist of 
+      earning a high grade. Others could experience more participation in the classroom. Know of how the students 
+      define success, we still assist them in realising their full potential. The special tactics can be used to 
+      assist students in succeeding"</p>
     </div>
 </section>
 </main> 
 <div class="circle1"></div>
-<div class="circle2"></div>
+
 </section>
 
 
 
       <section>
+      <h4 class="card-title pt-5"> Students Feedback</h4>
         <div class="container pt-5">
+          
           <div class="card">
             <img
-              src="https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+              src="imagess/feed-9.jpg"
               alt="First Image"
             />
             <div class="card-body">
-              <h2 class="card-title">Title One</h2>
+              <h2 class="card-title">Student</h2>
               <p class="card-text ">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-                minus voluptas magnam veritatis error quis dolorum ab placeat
-                quasi doloremque.
+              Future Academy is one of the most popular institute in kolkata.The teachers of Future Academy 
+              are very supportive.We could easily ask any doubt without hesitation. The environment of there 
+              is like a home for me.
+              The environment of Future Academy is like a home for me. They provide mock test programme timely and after the examination they also provide doubt clearing classes by which students can understand their mistakes.
+              I will suggest FUTURE ACADEMY to everybody!
               </p>
             </div>
           </div>
 
           <div class="card">
             <img
-              src="https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+              src="imagess/feed-8.jpg"
               alt="First Image"
             />
             <div class="card-body">
-              <h2 class="card-title">Title Two</h2>
+              <h2 class="card-title">Student</h2>
               <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-                minus voluptas magnam veritatis error quis dolorum ab placeat
-                quasi doloremque.
+              I'm taking class in Future Academy and I'll personally suggest every students to take admission 
+              over here for a better future. Here classes are taken by experienced and highly qualified staffs 
+              who guide and support every students for various types of exams very sincerely. And now they're 
+              also providing classes for joint entrance.
               </p>
             </div>
           </div>
 
           <div class="card">
             <img
-              src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80"
+              src="imagess/feed-7.jpg"
               alt="First Image"
             />
             <div class="card-body">
-              <h2 class="card-title">Title Three</h2>
+              <h2 class="card-title">Student</h2>
               <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-                minus voluptas magnam veritatis error quis dolorum ab placeat
-                quasi doloremque.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <div class="container">
-          <div class="card">
-            <img
-              src="https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-              alt="First Image"
-            />
-            <div class="card-body">
-              <h2 class="card-title">Title One</h2>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-                minus voluptas magnam veritatis error quis dolorum ab placeat
-                quasi doloremque.
-              </p>
-            </div>
-          </div>
-
-          <div class="card">
-            <img
-              src="https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-              alt="First Image"
-            />
-            <div class="card-body">
-              <h2 class="card-title">Title Two</h2>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-                minus voluptas magnam veritatis error quis dolorum ab placeat
-                quasi doloremque.
-              </p>
-            </div>
-          </div>
-
-          <div class="card">
-            <img
-              src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80"
-              alt="First Image"
-            />
-            <div class="card-body">
-              <h2 class="card-title">Title Three</h2>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-                minus voluptas magnam veritatis error quis dolorum ab placeat
-                quasi doloremque.
+              I've been attending classes in the Future Academy since past year and it's greatly obliging. 
+              With the accessible,enthusiastic approachable nature from the teachers, students can come up 
+              with any problems and concerns. Several lectures and suggestions are very much helpful and worthfull 
+              to me, hopefully to other students also... Thank you
               </p>
             </div>
           </div>
@@ -149,11 +112,11 @@ function About() {
         <div class="container">
           <div class="card">
             <img
-              src="https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+              src="imagess/feed-1.jpg"
               alt="First Image"
             />
             <div class="card-body">
-              <h2 class="card-title">Title One</h2>
+              <h2 class="card-title">Student</h2>
               <p class="card-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
                 minus voluptas magnam veritatis error quis dolorum ab placeat
@@ -164,30 +127,84 @@ function About() {
 
           <div class="card">
             <img
-              src="https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+              src="imagess/feed-2.jpg"
               alt="First Image"
             />
             <div class="card-body">
-              <h2 class="card-title">Title Two</h2>
+              <h2 class="card-title">Student</h2>
               <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-                minus voluptas magnam veritatis error quis dolorum ab placeat
-                quasi doloremque.
+              It was my immense luck and fortune to be the part of "FUTURE ACADEMY" where I can grow. 
+              The entire faculty and department leaves no stone unturned to shape one's future. My two 
+              years at "FUTURE ACADEMY" have been a wonderful experience of learning with prolific exposure 
+              to outside .Due to the efforts made by the faculty of "FUTURE ACADEMY" I am now able to bag a 
+              good rank in JEE .Every year, many good-ranked students come out of this academy.
               </p>
             </div>
           </div>
 
           <div class="card">
             <img
-              src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80"
+              src="imagess/feed-3.jpg"
               alt="First Image"
             />
             <div class="card-body">
-              <h2 class="card-title">Title Three</h2>
+              <h2 class="card-title">Student</h2>
               <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-                minus voluptas magnam veritatis error quis dolorum ab placeat
-                quasi doloremque.
+              We are so blessed to have this lovely platform in our generation .Can't express the amount of 
+              respect to all the members in this platform who are working so hard. It's their efforts that make
+               me to count myself into better professionals .If you also want to have a great future, then join 
+               Future Academy today.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="card">
+            <img
+              src="imagess/feed-4.jpg"
+              alt="First Image"
+            />
+            <div class="card-body">
+              <h2 class="card-title">Student</h2>
+              <p class="card-text">
+              I joined FUTURE ACADEMY in 2021 which eventually turned out to be a life-changing decision for me. 
+              The teaching methodology, guidance of expert faculty, doubt clearing sessions & regular mock tests 
+              helped me a lot to get through my exams (hailing from Science stream). Even for entance exams like 
+              NEET & JEE 's tutoring are also done here. For other glorious institutions like ISI, IITs, NITs' 
+              coaching are also given here.
+              To anyone aspiring for a brighter future, I would recommend Future Academy only.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="imagess/feed-5.jpg"
+              alt="First Image"
+            />
+            <div class="card-body">
+              <h2 class="card-title">Student</h2>
+              <p class="card-text">
+              I am thanking to my all regarded teachers .Dear students who are preparing for upcoming board 
+              exam you should also attend the mock test of the prestigious institution FUTURE ACADEMY
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="imagess/feed-6.jpg"
+              alt="First Image"
+            />
+            <div class="card-body">
+              <h2 class="card-title">Student</h2>
+              <p class="card-text">
+              The Future Academy's faculties are Godfather of subjects which they're teaching. All of your doubts 
+              will be cleared if you approach your subject teachers. 
+              Mock test are taken, where model answer sheets are provided along with it.
               </p>
             </div>
           </div>
@@ -206,15 +223,12 @@ function About() {
                   />
                 </div>
                 <div class="inactive">
-                  <div class="title">Web App </div>
+                  <div class="title">IIT-ZEE </div>
                 </div>
                 <div class="active">
-                  <div class="title">Web App Development</div>
+                  <div class="title">IIT-ZEE</div>
                   <div class="sub-title">
-                    Customer interactions, study and analysis of company
-                    branding through creative briefs. Creation of mock-up
-                    designs by using UI tools that simulate actions and
-                    pre-visualize the reactions.
+                  We provides coaching classes for IIT-ZEE exam by expert teachers with maximum facilities.
                   </div>
                 </div>
               </div>
@@ -228,15 +242,12 @@ function About() {
                   />
                 </div>
                 <div class="inactive">
-                  <div class="title">Mobile App </div>
+                  <div class="title">WB-ZEE </div>
                 </div>
                 <div class="active">
-                  <div class="title">Mobile App Development</div>
+                  <div class="title">WB-ZEE</div>
                   <div class="sub-title">
-                    Customer interactions, study and analysis of company
-                    branding through creative briefs. Creation of mock-up
-                    designs by using UI tools that simulate actions and
-                    pre-visualize the reactions.
+                  We provides coaching classes for IIT-ZEE exam by expert teachers with maximum facilities.
                   </div>
                 </div>
               </div>
@@ -250,15 +261,13 @@ function About() {
                   />
                 </div>
                 <div class="inactive">
-                  <div class="title">WordPress</div>
+                  <div class="title">NEET, KVPY </div>
                 </div>
                 <div class="active">
-                  <div class="title">WordPress</div>
+                  <div class="title">NEET, KVPY </div>
                   <div class="sub-title">
-                    Customer interactions, study and analysis of company
-                    branding through creative briefs. Creation of mock-up
-                    designs by using UI tools that simulate actions and
-                    pre-visualize the reactions.
+                  We also provides NEET,KVPY preparations for the students and make them well 
+                  prepared for these competitive examinatons
                   </div>
                 </div>
               </div>
@@ -272,15 +281,12 @@ function About() {
                   />
                 </div>
                 <div class="inactive">
-                  <div class="title">Digital Marketing</div>
+                  <div class="title">ISI</div>
                 </div>
                 <div class="active">
-                  <div class="title">Digital Marketing</div>
+                  <div class="title">ISI</div>
                   <div class="sub-title">
-                    Customer interactions, study and analysis of company
-                    branding through creative briefs. Creation of mock-up
-                    designs by using UI tools that simulate actions and
-                    pre-visualize the reactions.
+                  We provides classes to get ready for the upcoming ISI examination and to get success.
                   </div>
                 </div>
               </div>
@@ -294,15 +300,12 @@ function About() {
                   />
                 </div>
                 <div class="inactive">
-                  <div class="title">UI / UX Design</div>
+                  <div class="title">Class VII-XII</div>
                 </div>
                 <div class="active">
-                  <div class="title">UI / UX Design</div>
+                  <div class="title">Class VII-XII</div>
                   <div class="sub-title">
-                    Customer interactions, study and analysis of company
-                    branding through creative briefs. Creation of mock-up
-                    designs by using UI tools that simulate actions and
-                    pre-visualize the reactions.
+                  We provides classes for class VII to XII for BA, B.COM & B.SC students with proper guidance
                   </div>
                 </div>
               </div>
@@ -310,6 +313,78 @@ function About() {
           </div>
         </div>
       </section>
+
+
+      <footer>
+        <div class="footer-grid">
+          <div class="grid-item">
+            <div class="footer-logo">
+              <img
+                src="imagess/Future Academy footer.png"
+                alt="educator logo white"
+              />
+            </div>
+
+            <p class="footer-text ">
+              Future Academy is one of the most popular institute in kolkata.The
+              teachers of Future Academy are very supportive. Every students
+              could easily ask any doubt without hesitation. The environment of
+              there is like a home for all.
+            </p>
+
+            <div class="social-link">
+              <a href="#">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+              <a href="#">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+              <a href="#">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+              <a href="#">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </div>
+          </div>
+
+          <ul class="grid-item">
+            <h4 class="item-heading">CONTACT US</h4>
+
+            <li class="list-item">
+              <a href="#home">7003759438</a>
+            </li>
+
+            <li class="list-item">
+              <a href="#about">9330547692</a>
+            </li>
+
+            <li class="list-item">
+              <a href="#course">7044458283</a>
+            </li>
+
+
+          </ul>
+          <ul class="grid-item">
+            <h4 class="item-heading">Address</h4>
+            <h4 class="item-heading">RENU VILLA</h4>
+          
+            <p class="footer-text">
+          
+   36/1A, BECHARAM CHATTERJEE ROAD, KOLKATA - 34 (Near - VIDYASAGAR HOSPITAL)
+
+            </p>
+
+            </ul>
+
+     
+
+
+        </div>
+      </footer>
+
+
+
     </div>
   );
 }

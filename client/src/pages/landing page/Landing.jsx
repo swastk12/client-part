@@ -25,12 +25,12 @@ const Landing = () => {
 
                 <div class="home-btn-group">
                   <button class="btn btn-primary">
-                    <p class="btn-text text-white">Explore Classes</p>
+                    <a href="/feedback"> <p class="btn-text text-white">Explore Classes</p> </a>
                     <span class="square"></span>
                   </button>
 
                   <button class="btn btn-secondary">
-                    <p class="btn-text text-white">Contact Now</p>
+                  <a href="/mailer"> <p class="btn-text text-white">Contact Now</p> </a>
                     <span class="square"></span>
                   </button>
                 </div>
@@ -308,7 +308,7 @@ const Landing = () => {
           </ul>
 
           <button class="btn btn-primary">
-            <p class="btn-text">Know more</p>
+            <a href="/about"><p class="btn-text">Know more</p></a>
             <span class="square"></span>
           </button>
         </div>
@@ -330,8 +330,9 @@ const Landing = () => {
                 <h3 class="item-title">Student Life</h3>
 
                 <p class="item-text">
-                  Nulla vestibulum pretium nibh at dignissim. Aliquam vehicula
-                  consectetur dignissim dictum.
+                The student years lay the groundwork for the rest of our lives. We do not only study 
+                from books in college. We acquire the ability to develop socially, physically, 
+                philosophically, and emotionally.
                 </p>
               </div>
             </li>
@@ -345,8 +346,8 @@ const Landing = () => {
                 <h3 class="item-title">Best Classes</h3>
 
                 <p class="item-text">
-                  Nulla vestibulum pretium nibh at dignissim. Aliquam vehicula
-                  consectetur dignissim dictum.
+                Selecting the ideal coaching institute is one of the most important decisions a 
+                student will ever make because it will have a significant impact on their future.
                 </p>
               </div>
             </li>
@@ -360,8 +361,8 @@ const Landing = () => {
                 <h3 class="item-title">24x7 Program</h3>
 
                 <p class="item-text">
-                  Nulla vestibulum pretium nibh at dignissim. Aliquam vehicula
-                  consectetur dignissim dictum.
+                We will provide 24×7 study support to the students so that they can learn 
+                without any obstacles.
                 </p>
               </div>
             </li>
@@ -374,15 +375,15 @@ const Landing = () => {
       </section>
 
       <section class="instructor">
-        <p class="section-subtitle">Best Coach</p>
+        <p class="section-subtitle">Best Student</p>
 
-        <h2 class="section-title">Our Expert Instructor</h2>
+        <h2 class="section-title">Our Successful Student</h2>
 
         <div class="instructor-grid">
           <div class="instructor-card">
             <div class="instructor-img-box">
               <img
-                src="imagess/instructor-1.jpg"
+                src="imagess/student-9.jpg"
                 alt="instructor louis sullivan"
               />
 
@@ -401,15 +402,15 @@ const Landing = () => {
               </div>
             </div>
 
-            <h4 class="instructor-name">Louis Sullivan</h4>
+            <h4 class="instructor-name">Saswata Bakshi</h4>
 
-            <p class="instructor-title">Instructor</p>
+            <p class="instructor-title">Student</p>
           </div>
 
           <div class="instructor-card">
             <div class="instructor-img-box">
               <img
-                src="imagess/instructor-2.jpg"
+                src="imagess/student-3.jpg"
                 alt="instructor camden david"
               />
 
@@ -428,14 +429,14 @@ const Landing = () => {
               </div>
             </div>
 
-            <h4 class="instructor-name">Camden David</h4>
+            <h4 class="instructor-name">Sourima Chowdhury</h4>
 
             <p class="instructor-title">Instructor</p>
           </div>
 
           <div class="instructor-card">
             <div class="instructor-img-box">
-              <img src="imagess/instructor-2.jpg" alt="instructor fiona dean" />
+              <img src="imagess/student-11.jpg" alt="instructor fiona dean" />
 
               <div class="social-link">
                 <a href="#" class="facebook">
@@ -452,7 +453,7 @@ const Landing = () => {
               </div>
             </div>
 
-            <h4 class="instructor-name">Fiona Dean</h4>
+            <h4 class="instructor-name"> Srimoyee Majumder</h4>
 
             <p class="instructor-title">Instructor</p>
           </div>
@@ -460,7 +461,7 @@ const Landing = () => {
           <div class="instructor-card">
             <div class="instructor-img-box">
               <img
-                src="imagess/instructor-4.jpg"
+                src="imagess/student-5.jpg"
                 alt="instructor cherish sosa"
               />
 
@@ -479,11 +480,21 @@ const Landing = () => {
               </div>
             </div>
 
-            <h4 class="instructor-name">Cherish Sosa</h4>
+            <h4 class="instructor-name">Shreyasree Das</h4>
 
             <p class="instructor-title">Instructor</p>
           </div>
         </div>
+
+
+          
+                 <div class="mt-5">
+                  <button class="btn btn-secondary ">
+                   <a href="/feedback"> <p class="btn-text text-white"> Check Now</p> </a>
+                    <span class="square"></span>
+                  </button>
+                  </div>
+
       </section>
 
       <section class="testimonials">
@@ -529,74 +540,51 @@ const Landing = () => {
       </section>
 
       <section class="blog" id="blog">
-        <p class="section-subtitle">Our Blog</p>
+        <p class="section-subtitle"> OUR GLORIOUS STUDENT </p>
 
-        <h2 class="section-title">Latest Blogs</h2>
+        <h2 class="section-title"> Classes</h2>
 
         <div class="blog-grid">
           <div class="blog-card">
             <div class="blog-banner-box">
-              <img src="imagess/blog-1.jpg" alt="blog banner" />
+              <img src="imagess/main-2.jpg" alt="blog banner" />
             </div>
 
             <div class="blog-content">
               <h3 class="blog-title">
-                <a href="#">Proin feugiat tortor non neque eleifend.</a>
+                <a href="#">The teaching methodology.</a>
               </h3>
 
-              <div class="wrapper">
-                <div class="blog-publish-date">
-                  <img src="imagess/calendar.png" alt="calendar icon" />
-                </div>
-
-                <div class="blog-comment">
-                  <img src="imagess/comment.png" alt="comment icon" />
-                </div>
-              </div>
+    
             </div>
           </div>
 
           <div class="blog-card">
             <div class="blog-banner-box">
-              <img src="imagess/blog-2.jpg" alt="blog banner" />
+              <img src="imagess/student-grp.jpg" alt="blog banner" />
             </div>
 
             <div class="blog-content">
               <h3 class="blog-title">
-                <a href="#">Proin feugiat tortor non neque eleifend.</a>
+                <a href="#">guidance of expert faculty.</a>
               </h3>
 
-              <div class="wrapper">
-                <div class="blog-publish-date">
-                  <img src="imagess/calendar.png" alt="calendar icon" />
-                </div>
-
-                <div class="blog-comment">
-                  <img src="imagess/comment.png" alt="comment icon" />
-                </div>
-              </div>
+      
             </div>
           </div>
 
           <div class="blog-card">
             <div class="blog-banner-box">
-              <img src="imagess/blog-3.jpg" alt="blog banner" />
+              <img src="imagess/student-grp-2.jpg" alt="blog banner" />
             </div>
 
             <div class="blog-content">
               <h3 class="blog-title">
-                <a href="#">Proin feugiat tortor non neque eleifend.</a>
+                <a href="#">doubt clearing sessions & regular mock tests .</a>
               </h3>
 
-              <div class="wrapper">
-                <div class="blog-publish-date">
-                  <img src="imagess/calendar.png" alt="calendar icon" />
-                </div>
-
-                <div class="blog-comment">
-                  <img src="imagess/comment.png" alt="comment icon" />
-                </div>
-              </div>
+    
+            
             </div>
           </div>
         </div>
@@ -612,10 +600,7 @@ const Landing = () => {
 
           <h2>Start Your Dream Journey With Us</h2>
 
-          <button class="btn btn-primary">
-            <p class="btn-text">Contact Us</p>
-            <span class="square"></span>
-          </button>
+        
         </div>
       </section>
 
@@ -653,64 +638,42 @@ const Landing = () => {
           </div>
 
           <ul class="grid-item">
-            <h4 class="item-heading">Our Link</h4>
+            <h4 class="item-heading">CONTACT US</h4>
 
             <li class="list-item">
-              <a href="#home">Home</a>
+              <a href="#home">7003759438</a>
             </li>
 
             <li class="list-item">
-              <a href="#about">About Us</a>
+              <a href="#about">9330547692</a>
             </li>
 
             <li class="list-item">
-              <a href="#course">Courses</a>
+              <a href="#course">7044458283</a>
             </li>
 
-            <li class="list-item">
-              <a href="#blog">Blog</a>
-            </li>
 
-            <li class="list-item">
-              <a href="#contact">Contact Us</a>
-            </li>
           </ul>
-
           <ul class="grid-item">
-            <h4 class="item-heading">Other Link</h4>
+            <h4 class="item-heading">Address</h4>
+            <h4 class="item-heading">RENU VILLA</h4>
+          
+            <p class="footer-text">
+          
+   36/1A, BECHARAM CHATTERJEE ROAD, KOLKATA - 34 (Near - VIDYASAGAR HOSPITAL)
 
-            <li class="list-item">
-              <a href="#">Instructor</a>
-            </li>
+            </p>
 
-            <li class="list-item">
-              <a href="#">FAQ</a>
-            </li>
+       
 
-            <li class="list-item">
-              <a href="#">Event</a>
-            </li>
 
-            <li class="list-item">
-              <a href="#">Privacy Policy</a>
-            </li>
-
-            <li class="list-item">
-              <a href="#">Term & Condition</a>
-            </li>
           </ul>
 
-          <div class="grid-item">
-            <h4 class="item-heading">Subscribe Now</h4>
 
-            <div class="wrapper">
-              <input type="text" name="subscribe" placeholder="Email Address" />
+     
 
-              <button class="send-btn">
-                <ion-icon name="paper-plane"></ion-icon>
-              </button>
-            </div>
-          </div>
+      
+        
         </div>
       </footer>
 
