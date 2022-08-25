@@ -431,7 +431,7 @@ const Landing = () => {
 
             <h4 class="instructor-name">Sourima Chowdhury</h4>
 
-            <p class="instructor-title">Instructor</p>
+            <p class="instructor-title">Student</p>
           </div>
 
           <div class="instructor-card">
@@ -455,7 +455,7 @@ const Landing = () => {
 
             <h4 class="instructor-name"> Srimoyee Majumder</h4>
 
-            <p class="instructor-title">Instructor</p>
+            <p class="instructor-title">Student</p>
           </div>
 
           <div class="instructor-card">
@@ -482,7 +482,7 @@ const Landing = () => {
 
             <h4 class="instructor-name">Shreyasree Das</h4>
 
-            <p class="instructor-title">Instructor</p>
+            <p class="instructor-title">Student</p>
           </div>
         </div>
 
