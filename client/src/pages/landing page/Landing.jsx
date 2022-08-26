@@ -383,7 +383,7 @@ const Landing = () => {
           <div class="instructor-card">
             <div class="instructor-img-box">
               <img
-                src="imagess/student-9.jpg"
+                src="imagess/feed-13.jpg"
                 alt="instructor louis sullivan"
               />
 
@@ -402,7 +402,7 @@ const Landing = () => {
               </div>
             </div>
 
-            <h4 class="instructor-name">Saswata Bakshi</h4>
+            <h4 class="instructor-name">Souvik Das</h4>
 
             <p class="instructor-title">Student</p>
           </div>
@@ -410,7 +410,7 @@ const Landing = () => {
           <div class="instructor-card">
             <div class="instructor-img-box">
               <img
-                src="imagess/student-3.jpg"
+                src="imagess/feed-14.jpg"
                 alt="instructor camden david"
               />
 
@@ -429,7 +429,7 @@ const Landing = () => {
               </div>
             </div>
 
-            <h4 class="instructor-name">Sourima Chowdhury</h4>
+            <h4 class="instructor-name">Sampurna Paul</h4>
 
             <p class="instructor-title">Student</p>
           </div>

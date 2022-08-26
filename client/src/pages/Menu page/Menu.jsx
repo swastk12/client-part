@@ -100,25 +100,25 @@ function Menu() {
 	<article class="row" id="idea-one">
 		<div><img style={{width:"300px"}} src="https://media.istockphoto.com/photos/interior-of-a-school-classroom-with-wooden-desks-and-chairs-picture-id1296463018?b=1&k=20&m=1296463018&s=170667a&w=0&h=RWZEBlCbVMkWyfMnNu-nR-E6kWKApneOGieHc-ma9Oo="/></div>
 		<div>
-			<h3>Idea 1</h3>
+
 			<p>Future Academy is one of the most popular institute in kolkata. The teachers of
 Future Academy are very supportive. We provides mock test programmes timely and
 after the examination we also provide doubt clearing classes by which students can
 understand their mistakes.</p>
-			<a href="#">Link to read more</a>
+		
 		</div>
 	</article>
 
 	<article class="row" id="idea-two">
 		<div>
-			<h3>Idea 2</h3>
+
 			<p>A truly effective coaching or class is extremely picky when it comes to choosing and
 hiring the top instructors. In actuality, these instructors have a huge impact because
 what they do determines the institute's success stories. These professors are
 becoming more well-known in the eyes of the students since they give great attention
 to providing the pupils with the proper education.
 </p>
-			<a href="#">Link to read more</a>
+	
 		</div>
 		<div><img style={{width:"300px"}} src="https://media.istockphoto.com/photos/glowing-light-bulb-and-book-or-text-book-with-futuristic-icon-self-picture-id1320882544?b=1&k=20&m=1320882544&s=170667a&w=0&h=ihwn0m_Ify_x1yHWH78pNWZhDkyA4ZPZaHV7DrU2eL0="/></div>
 	</article>
@@ -126,12 +126,12 @@ to providing the pupils with the proper education.
 	<article class="row" id="idea-three">
 		<div><img style={{width:"300px"}} src="https://media.istockphoto.com/photos/magnifying-lens-and-open-and-closed-books-with-turning-pages-on-picture-id1346221970?b=1&k=20&m=1346221970&s=170667a&w=0&h=lTP1lDNiwoivkhVDAe6OOccNvv4vYDxiPhffYtg_8IU="/></div>
 		<div>
-			<h3>Idea 3</h3>
+
 			<p>This is yet another crucial factor that gives coaching institutes an unmatched
 reputation wherever they serve pupils. To keep the students interested in us, we try
 not to hold classes and to run them frequently. The fact that the pupils and their
 parents like and value something is really significant.</p>
-			<a href="#">Link to read more</a>
+
 		</div>
 	</article>
 

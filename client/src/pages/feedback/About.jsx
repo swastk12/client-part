@@ -112,32 +112,39 @@ function About() {
         <div class="container">
           <div class="card">
             <img
-              src="imagess/feed-1.jpg"
+              src="imagess/feed-13.jpg"
               alt="First Image"
             />
             <div class="card-body">
               <h2 class="card-title">Student</h2>
               <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-                minus voluptas magnam veritatis error quis dolorum ab placeat
-                quasi doloremque.
+              I am Souvik Das. I get 8th rank in Higher Secondary exam 2022 from Chetla Boys' High School(Kolkata).
+              I am thanking to my all regarded teachers .Dear students who are preparing for upcoming board exam you
+              should also attend the mock test of the prestigious institution FUTURE ACADEMY
               </p>
             </div>
           </div>
 
           <div class="card">
             <img
-              src="imagess/feed-2.jpg"
+              src="imagess/feed-14.jpg"
               alt="First Image"
             />
             <div class="card-body">
               <h2 class="card-title">Student</h2>
               <p class="card-text">
-              It was my immense luck and fortune to be the part of "FUTURE ACADEMY" where I can grow. 
-              The entire faculty and department leaves no stone unturned to shape one's future. My two 
-              years at "FUTURE ACADEMY" have been a wonderful experience of learning with prolific exposure 
-              to outside .Due to the efforts made by the faculty of "FUTURE ACADEMY" I am now able to bag a 
-              good rank in JEE .Every year, many good-ranked students come out of this academy.
+              I am Sampurna Paul . I had studied during my
+10th and 12th grade and got 80% in my Higher
+Secondary Examination 2022 from Bidya Bharati Girls’
+High School , New Alipore Kolkata and finally pursuing
+Bachelor Of Computer Application (BCA) from
+Techno Main Salt Lake . I am thankful to all my teachers
+who guided and supported me in this wonderful journey .
+I would highly recommend all the students who are
+preparing for their upcoming board exams or any kind of
+joint entrance exam should definitely attend the classes
+and mock tests from the prestigious institute
+FUTURE ACADEMY .
               </p>
             </div>
           </div>
