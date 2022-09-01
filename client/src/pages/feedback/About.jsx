@@ -203,15 +203,13 @@ FUTURE ACADEMY .
 
           <div class="card">
             <img
-              src="imagess/feed-6.jpg"
+              src="imagess/ganesha.jpg"
               alt="First Image"
             />
             <div class="card-body">
               <h2 class="card-title">Student</h2>
               <p class="card-text">
-              The Future Academy's faculties are Godfather of subjects which they're teaching. All of your doubts 
-              will be cleared if you approach your subject teachers. 
-              Mock test are taken, where model answer sheets are provided along with it.
+              "Ganesh chaturthi" at Future Academy 
               </p>
             </div>
           </div>
@@ -230,12 +228,12 @@ FUTURE ACADEMY .
                   />
                 </div>
                 <div class="inactive">
-                  <div class="title">IIT-ZEE </div>
+                  <div class="title">IIT-JEE </div>
                 </div>
                 <div class="active">
-                  <div class="title">IIT-ZEE</div>
+                  <div class="title">IIT-JEE</div>
                   <div class="sub-title">
-                  We provides coaching classes for IIT-ZEE exam by expert teachers with maximum facilities.
+                  We provides coaching classes for IIT-jEE exam by expert teachers with maximum facilities.
                   </div>
                 </div>
               </div>
@@ -249,12 +247,12 @@ FUTURE ACADEMY .
                   />
                 </div>
                 <div class="inactive">
-                  <div class="title">WB-ZEE </div>
+                  <div class="title">WB-JEE </div>
                 </div>
                 <div class="active">
-                  <div class="title">WB-ZEE</div>
+                  <div class="title">WB-JEE</div>
                   <div class="sub-title">
-                  We provides coaching classes for IIT-ZEE exam by expert teachers with maximum facilities.
+                  We provides coaching classes for IIT-jEE exam by expert teachers with maximum facilities.
                   </div>
                 </div>
               </div>
