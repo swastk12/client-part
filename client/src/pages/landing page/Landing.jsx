@@ -86,7 +86,7 @@ const Landing = () => {
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-12 text-center">
-      <h3 class="animate-charcter">Get prepared for the JEE classes with mock test facilities. Waiting is over! Join our Academic session today to make your future bright ( For for ARTS/SCIENCE/COMMERCE students)</h3>
+      <h3 class="animate-charcter">Get prepared for the JEE classes with mock test facilities. Waiting is over! Join our Academic session today to make your future bright ( For ARTS/SCIENCE/COMMERCE students)</h3>
     </div>
   </div>
 </div>

@@ -2188,6 +2188,7 @@ z-index: 0;
   animation: textclip 2s linear infinite;
   display: inline-block;
       font-size: 80px;
+      line-height: 34px;
 }
 
 @keyframes textclip {
