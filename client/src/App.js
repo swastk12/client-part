@@ -6,6 +6,9 @@ import Mailer from "./pages/booking/Mailer";
 import Landing from "./pages/landing page/Landing";
 import Menu from "./pages/Menu page/Menu";
 import About from "./pages/feedback/About";
+import Mdk from "./pages/Madhyamik/Mdk";
+import Uch from "./pages/uchyamadhyamik/Uch";
+import Joint from "./pages/joint/Joint";
 
 
 
@@ -28,6 +31,9 @@ function App() {
         <Route exact path="/home" element={<Home />} />
         <Route exact path="/feedback" element={<About />} />
         <Route exact path="/about" element={<Menu />} />
+        <Route exact path="/madhyamik" element={<Mdk />} />
+        <Route exact path="/uchmadhyamik" element={<Uch/>} />
+        <Route exact path="/joint" element={<Joint/>} />
         <Route  path="/post/:postId" element={<Single />} />
         <Route path="/write"element={<Write />}/>
         <Route path="/Mailer"element={<Mailer />}/>

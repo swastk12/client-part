@@ -30,6 +30,16 @@ export default function Topbar() {
                         <a href="/"><li class="nav-tab">HOME</li></a>
                         <a href="/feedback"><li class="nav-tab">Feedback</li></a>
                         <a href="/about"><li class="nav-tab">About-us</li></a>
+                     
+                        
+<div class="dropdown">
+<a href="#"><li class="nav-tab">Routine</li></a>
+  <div class="dropdown-content">
+  <a href="/uchmadhyamik">Uccha Madhyamik</a>
+  <a href="/madhyamik">Madhyamik</a>
+  <a href="/joint">Joint</a>
+  </div>
+</div>
                         <a href="/Mailer"><li class="nav-tab">Booking</li></a>
                     </ul>
                 </div>
