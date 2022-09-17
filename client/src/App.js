@@ -9,6 +9,7 @@ import About from "./pages/feedback/About";
 import Mdk from "./pages/Madhyamik/Mdk";
 import Uch from "./pages/uchyamadhyamik/Uch";
 import Joint from "./pages/joint/Joint";
+import Notice from "./pages/NOTICE/Notice";
 
 
 
@@ -34,6 +35,7 @@ function App() {
         <Route exact path="/madhyamik" element={<Mdk />} />
         <Route exact path="/uchmadhyamik" element={<Uch/>} />
         <Route exact path="/joint" element={<Joint/>} />
+        <Route exact path="/notice" element={<Notice/>} />
         <Route  path="/post/:postId" element={<Single />} />
         <Route path="/write"element={<Write />}/>
         <Route path="/Mailer"element={<Mailer />}/>

@@ -90,6 +90,10 @@ const Landing = () => {
     </div>
   </div>
 </div>
+        <button class="btn btn-primary mb-5">
+                    <a href="/notice"> <p class="btn-text text-white"> IMPORTANT NOTICE</p> </a>
+                    <span class="square"></span>
+                  </button>
 </section>
 
 

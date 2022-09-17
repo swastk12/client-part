@@ -19,12 +19,11 @@ function Mdk() {
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-12 text-center">
+      <h3 class="animate-charcter">  </h3>
       <h3 class="animate-charcter"> MADHYAMIK ROUTINE  "IMPORTANT NOTICE"  </h3>
       <div className='animatetext'>
-      <h6 > DATE FOR TAKING ALL EXAM MATERIALS (PROGRAMME:SET-1): 12/12/2022-MONDAY-TIME:11Am   </h6>
-      <h6 >DATE OF SUBMISSION OF ALL ANSWER SCRIPTS (PROGRAMME:SET-1): 20/12/2022-TUESDAY-TIME:2:30PM </h6>
-      <h6 > DATE FOR TAKING ALL EXAM MATERIALS (PROGRAMME:SET-2): 9/1/2023-MONDAY-TIME:11Am   </h6>
-      <h6 >DATE OF SUBMISSION OF ALL ANSWER SCRIPTS (PROGRAMME:SET-2): 17/1/2023-TUESDAY-TIME:2:30PM </h6>
+      <h6 > DATE FOR TAKING ALL EXAM MATERIALS (PROGRAMME:SET-1): 12/12/2022-MONDAY-TIME:11Am  ( ONLINE exam only )  </h6>
+      <h6 >DATE OF SUBMISSION OF ALL ANSWER SCRIPTS (PROGRAMME:SET-1): 20/12/2022-TUESDAY-TIME:2:30PM  ( ONLINE exam only ) </h6>
       <h6 >DATE OF DISCUSSION CLASS : 04/02/2023 </h6>
       </div>
     </div>
@@ -113,6 +112,22 @@ function Mdk() {
     </tr>
   </tbody>
 </table>
+</section>
+
+
+<section>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <h3 class="animate-charcter"> MADHYAMIK ROUTINE  "IMPORTANT NOTICE"  </h3>
+      <div className='animatetext'>
+      <h6 > DATE FOR TAKING ALL EXAM MATERIALS (PROGRAMME:SET-2): 9/1/2023-MONDAY-TIME:11Am ( ONLINE exam only )   </h6>
+      <h6 >DATE OF SUBMISSION OF ALL ANSWER SCRIPTS (PROGRAMME:SET-2): 17/1/2023-TUESDAY-TIME:2:30PM ( ONLINE exam only )  </h6>
+      <h6 >DATE OF DISCUSSION CLASS : 04/02/2023 </h6>
+      </div>
+    </div>
+  </div>
+</div>
 </section>
 
 

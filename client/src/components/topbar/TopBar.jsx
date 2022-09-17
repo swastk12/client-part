@@ -15,7 +15,7 @@ export default function Topbar() {
 
 <div class="nav-wrapper">
             <div class="logo-container">
-                <img class="logo" src="imagess/future academy.png" alt="Logo"/>
+                <img class="logo" src="imagess/mainlogo.png" alt="Logo"/>
             </div>
             <nav>
                 <input class="hidden" type="checkbox" id="menuToggle"/>
@@ -40,6 +40,7 @@ export default function Topbar() {
   <a href="/joint">Joint</a>
   </div>
 </div>
+<a href="/notice"><li class="nav-tab">Notice</li></a>    
                         <a href="/Mailer"><li class="nav-tab">Booking</li></a>
                     </ul>
                 </div>
