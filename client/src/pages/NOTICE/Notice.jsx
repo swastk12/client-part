@@ -16,7 +16,7 @@ function Notice() {
       <h6 > Future Academy is going to arrange - "TALENT SEARCH TEST" for class  </h6>
       <h6 > vi, vii, viii, ix, x.  </h6>
       <h6 > Contact immediately for bright future.  </h6>
-      <h6> contact - 7003759438 / 9330547692 / 70044458238 </h6>
+      <h6> contact - 7003759438 / 9330547692 / 7044458238 </h6>
       <hr></hr>
     
 
