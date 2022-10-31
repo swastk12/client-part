@@ -13,7 +13,7 @@ dotenv.config();
 app.use(express.json());
 app.use("/images", express.static(path.join(__dirname, "/images")));
 
-const PORT = process.env.PORT || 3300;
+const PORT = process.env.PORT || 3000;
 
 
 mongoose.connect(process.env.MONGO_URL, {
