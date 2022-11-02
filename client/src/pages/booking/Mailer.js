@@ -8,7 +8,7 @@ const Mailer = () =>{
     const sendEmail = (e) => {
         e.preventDefault();
     
-        emailjs.sendForm('service_7uym11k', 'template_3wgzsne', form.current, 'BwsrfgZKtZpi1qduV')
+        emailjs.sendForm('service_dqsh3ep', 'template_ov22r8p', form.current, 'BwsrfgZKtZpi1qduV')
           .then((result) => {
               console.log(result.text);
           }, (error) => {
