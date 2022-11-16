@@ -98,6 +98,71 @@ const Landing = () => {
 
 
 
+<section class="blog" id="blog">
+        <p class="section-subtitle pb-2"> OUR GLORIOUS STUDENT  </p>
+
+        <h2 class="section-title pb-5">   OUR TALENT SEARCH EXAMINATION         </h2>
+
+        <div class="blog-grid">
+          <div class="blog-card">
+            <div class="blog-banner-box">
+              <img src="imagess/talent.jpeg" alt="blog banner" />
+            </div>
+
+            <div class="blog-content">
+              <h3 class="blog-title">
+                <a href="#">The teaching methodology.</a>
+              </h3>
+
+    
+            </div>
+          </div>
+
+          <div class="blog-card">
+            <div class="blog-banner-box">
+              <img src="imagess/talent1.jpeg" alt="blog banner" />
+            </div>
+
+            <div class="blog-content">
+              <h3 class="blog-title">
+                <a href="#">guidance of expert faculty.</a>
+              </h3>
+
+      
+            </div>
+          </div>
+
+          <div class="blog-card">
+            <div class="blog-banner-box">
+              <img src="imagess/talent2.jpeg" alt="blog banner" />
+            </div>
+
+            <div class="blog-content">
+              <h3 class="blog-title">
+                <a href="#">doubt clearing sessions & regular mock tests .</a>
+              </h3>
+
+    
+            
+            </div>
+           
+          </div>
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+          
+        </div>
+     
+      </section>
 
 
 
@@ -112,6 +177,13 @@ const Landing = () => {
           </ol>
         </div>
       </section>
+
+
+
+
+
+
+
 
       <section class="category">
         <p class="section-subtitle">Course Category</p>
@@ -517,6 +589,12 @@ const Landing = () => {
 
       </section>
 
+
+     
+
+
+
+
       <section class="testimonials">
         <div class="testimonials-left">
           <p class="section-subtitle">Testimonial</p>
@@ -607,8 +685,27 @@ const Landing = () => {
             
             </div>
           </div>
+ 
+
+
+
+
+
+
+
+
+          
         </div>
       </section>
+
+
+
+
+
+
+
+
+
 
       <section class="contact">
         <div class="contact-card" id="contact">
