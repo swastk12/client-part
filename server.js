@@ -7,7 +7,8 @@ const postRoute = require("./routes/posts");
 const categoryRoute = require("./routes/categorys");
 const multer = require("multer")
 const path = require("path");
-const { TextEncoder, TextDecoder } = require("./util");
+const util= require('util');
+const encoder = new util.TextEncoder('utf-8');
 
 dotenv.config();
 app.use(express.json());
