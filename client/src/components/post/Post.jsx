@@ -2,7 +2,7 @@ import './post.css'
 import {Link} from "react-router-dom" 
 
 export default function get({post}) {
-  const PF = "http://13.126.9.211/images/";
+  const PF = "http://13.233.126.48/images/";
   return (
     <div className='post'>
       {post.photo && (
