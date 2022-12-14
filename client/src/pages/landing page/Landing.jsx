@@ -86,11 +86,14 @@ const Landing = () => {
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-12 text-center">
+    <h3 class="animate-charcter"> We are going to start (2023) Batch Enrol now : to more info click IMPORTANT NOTICE ( CLICK CONTACT US PAGE TO ENROL YOUR NAME )</h3>
+    <hr></hr>
       <h3 class="animate-charcter">Get prepared for the JEE classes with mock test facilities. Waiting is over! Join our Academic session today to make your future bright ( For ARTS/SCIENCE/COMMERCE students)</h3>
     </div>
   </div>
 </div>
         <button class="btn btn-primary mb-5">
+      
                     <a href="/notice"> <p class="btn-text text-white"> IMPORTANT NOTICE</p> </a>
                     <span class="square"></span>
                   </button>
@@ -106,12 +109,12 @@ const Landing = () => {
         <div class="blog-grid">
           <div class="blog-card">
             <div class="blog-banner-box">
-              <img src="imagess/talent.jpeg" alt="blog banner" />
+              <img src="imagess/talent3 (5).jpeg" alt="blog banner" />
             </div>
 
             <div class="blog-content">
               <h3 class="blog-title">
-                <a href="#">The teaching methodology.</a>
+                <a href="#">Our ranker - "Talent search examination" 2022</a>
               </h3>
 
     
@@ -120,12 +123,12 @@ const Landing = () => {
 
           <div class="blog-card">
             <div class="blog-banner-box">
-              <img src="imagess/talent1.jpeg" alt="blog banner" />
+              <img src="imagess/talent3 (6).jpeg" alt="blog banner" />
             </div>
 
             <div class="blog-content">
               <h3 class="blog-title">
-                <a href="#">guidance of expert faculty.</a>
+                <a href="#">"Talent search examination" 2022</a>
               </h3>
 
       
@@ -134,12 +137,12 @@ const Landing = () => {
 
           <div class="blog-card">
             <div class="blog-banner-box">
-              <img src="imagess/talent2.jpeg" alt="blog banner" />
+              <img src="imagess/talent3 (4).jpeg" alt="blog banner" />
             </div>
 
             <div class="blog-content">
               <h3 class="blog-title">
-                <a href="#">doubt clearing sessions & regular mock tests .</a>
+                <a href="#">Our ranker - "Talent search examination" 2022</a>
               </h3>
 
     
@@ -148,6 +151,55 @@ const Landing = () => {
            
           </div>
  
+          <div class="blog-card">
+            <div class="blog-banner-box">
+              <img src="imagess/talent3 (3).jpeg" alt="blog banner" />
+            </div>
+
+            <div class="blog-content">
+              <h3 class="blog-title">
+                <a href="#"> Our ranker - "Talent search examination" 2022 </a>
+              </h3>
+
+    
+            
+            </div>
+           
+          </div>
+
+          <div class="blog-card">
+            <div class="blog-banner-box">
+              <img src="imagess/talent3 (2).jpeg" alt="blog banner" />
+            </div>
+
+            <div class="blog-content">
+              <h3 class="blog-title">
+                <a href="#">Our ranker - "Talent search examination" 2022</a>
+              </h3>
+
+    
+            
+            </div>
+           
+          </div>
+
+          <div class="blog-card">
+            <div class="blog-banner-box">
+              <img src="imagess/talent3 (1).jpeg" alt="blog banner" />
+            </div>
+
+            <div class="blog-content">
+              <h3 class="blog-title">
+                <a href="#">Our ranker - "Talent search examination" 2022</a>
+              </h3>
+
+    
+            
+            </div>
+           
+          </div>
+
+
 
  
 
